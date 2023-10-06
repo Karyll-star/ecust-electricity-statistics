@@ -4,7 +4,7 @@ import logging
 import requests
 
 
-def sendMsgToWechat(token: str, title: str, text: str, template: str) -> None:
+def sendMsgToWechat(token: str, title: str, text: str, topic: str, template: str) -> None:
     """
     token:PushPlus token
     title:text's title
